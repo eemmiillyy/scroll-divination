@@ -1,0 +1,13 @@
+{
+  "name": "simple-mouse-path-recorder",
+  "version": "1.0.0",
+  "description": "Simple MV3 extension that records mouse movement and can optionally show a drawing overlay.",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
+
