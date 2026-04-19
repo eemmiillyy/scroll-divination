@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["DOM", "ES2017"],
+    "lib": ["DOM", "DOM.Iterable", "ES2017"],
     "module": "ESNext",
     "moduleResolution": "Node",
     "strict": true,
@@ -9,6 +9,6 @@
     "allowJs": false,
     "skipLibCheck": true
   },
-  "include": ["content.ts"]
+  "include": ["content.ts", "svgs.ts", "shape-matching.ts", "types.ts", "constants.ts"]
 }
 

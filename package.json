@@ -4,10 +4,10 @@
   "description": "Simple MV3 extension that records mouse movement and can optionally show a drawing overlay.",
   "private": true,
   "scripts": {
-    "build": "tsc"
+    "build": "npx esbuild content.ts --bundle --outfile=content.js --format=iife"
   },
   "devDependencies": {
-    "typescript": "5.8.3"
+    "esbuild": "^0.27.2",
+    "typescript": "^6.0.3"
   }
 }
-
